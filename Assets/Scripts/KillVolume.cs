@@ -7,7 +7,7 @@ public class KillVolume : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("SampleScene");
+            //SceneManager.LoadScene("SampleScene");
         }
     }
 }
