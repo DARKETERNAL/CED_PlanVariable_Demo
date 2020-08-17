@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
             transform.Translate(transform.forward * movDirection * movSpeed * Time.deltaTime, Space.World);
         }
 
-        if (Input.GetButtonUp("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             if (jumpAudioSource != null)
             {
